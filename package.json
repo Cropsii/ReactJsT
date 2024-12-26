@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "ReactJsT",
+  "description": "An Extension.js example.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.com",
+    "url": "https://yourwebsite.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "extension": "latest"
+  },
+  "scripts": {
+    "sedge": "extension dev --browser=edge",
+    "dev": "extension dev",
+    "start": "extension start",
+    "build": "extension build"
+  }
+}
